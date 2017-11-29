@@ -1,0 +1,58 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /*For columns- comment out for rows  */
+		height: 450px;
+		ali
+}
+
+.item {
+    flex: 1;
+}
+
+.item-1 {
+    align-self: flex-end;
+}
+
+.item-4 {
+    align-self: center;
+}
+
+.item-2 {
+    flex: 2;
+}
+
+
+/*For rows  */
+
+
+/*___________________________  */
+
+
+/* .item { */
+
+
+/* flex-grow: 1;
+		flex-basis: 200px; */
+
+
+/*Same as  */
+
+
+/* flex: 1 200; */
+
+
+/* } */
+
+
+/* .item-2 { */
+
+
+/* flex-grow: 2; */
+
+
+/* } */
